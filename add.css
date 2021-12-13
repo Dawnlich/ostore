@@ -1,0 +1,81 @@
+body {
+    background: lightblue;
+}
+
+#add{
+    background-image: url("img/image2.jpg");
+    border: 3px solid black;
+}
+
+h1[name="ostore"] {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Lucida Console", "Courier New";
+
+}
+
+h1[name="add"] {
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    font-family: "Lucida Console", "Courier New";
+}
+
+.line {
+    background-color: black;
+    height: 10px;
+    width: 100%;
+    border: 1px solid  black;
+ }
+
+
+form[name="form2"] {
+    width: 200px;
+    height: 350px;
+    border: 3px solid black;
+    padding: 10px;
+    background: white;
+    border-radius: 20px;
+    text-align: left;
+    margin: 0 auto; 
+}
+
+input[name="submit"] {  
+    background: rgb(40, 82, 219);
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    margin-left: 85%;
+    margin: 0 left;
+}
+
+button[name="add"] {  
+    background: rgb(40, 82, 219);
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+}
+
+.add {
+    background: #F2DEDE;
+    color: #0c0101;
+    padding: 10px;
+    width: 40%;
+    border-radius: 5px;
+    margin: 20px auto;
+    text-align: center;
+ }
+
+ .error {
+    background: #F2DEDE;
+    color: #0c0101;
+    padding: 10px;
+    width: 40%;
+    border-radius: 5px;
+    margin: 20px auto;
+    text-align: center;
+ }
