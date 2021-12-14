@@ -1,0 +1,52 @@
+body {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+form {
+    width:650px;
+    border: 3px solid black;
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: black;
+    font-family: "Lucida Console", "Courier New";
+}
+
+input {
+    display: block;
+    border: 2px solid black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+label {
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+}
+
+button {  
+    background: rgb(40, 82, 219);
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 44%;
+    margin-right: 4%;
+    border: none;
+    border: 1px solid  black;
+}
+
+
+
